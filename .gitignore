@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+env/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Environment & secrets
+.env
+.env.local
+
+# Local database & data
+data/
+*.db
+*.sqlite3
+
+# System
+.DS_Store
+Thumbs.db
